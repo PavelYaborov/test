@@ -167,6 +167,7 @@ body {
 .main__section-text-block {
   padding: 102px 0px 102px 72px;
   max-width: 574px;
+  margin-right: 20px;
 }
 
 .main__section-title {
@@ -215,11 +216,13 @@ body {
 
 .main__section-img {
   border-radius: 0 10px 10px 0;
+  height: 100%;
 }
 
 @media (max-width: 1150px) {
   .main__section-text-block {
     padding: 108px 0px 102px 72px;
+    margin-right: 20px;
   }
   .main__section-title {
     font-family: "Manrope";
